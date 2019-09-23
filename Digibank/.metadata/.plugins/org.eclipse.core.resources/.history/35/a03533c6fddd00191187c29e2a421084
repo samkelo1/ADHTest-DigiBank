@@ -1,0 +1,27 @@
+package service;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import model.DigibankEntity;
+
+/**
+ * Session Bean implementation class EmployeeEJB
+ */
+@Stateless
+@LocalBean
+public class DigibankEJB {
+
+   @PersistenceContext
+   private EntityManager em;
+    public DigibankEJB() {
+        // TODO Auto-generated constructor stub
+    }
+    
+    public void addNew(DigibankEntity employeeEntity)
+    {
+    	System.out.println("====Adding employee to database====");
+    	em.persist(employeeEntity);
+    }
+
+}

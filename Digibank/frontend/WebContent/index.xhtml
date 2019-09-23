@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"      
+      xmlns:h="http://java.sun.com/jsf/html">
+	
+    <h:head>
+        <title>Digibank</title>
+    </h:head>
+    <h:body>
+    	<h2> Digibank</h2>
+    	<h:form>
+    		<h:panelGrid columns="2" >
+    		<h:outputLabel value="Name : "/>
+    	   <h:inputText value="#{Digibankcontroller.employee.name}"></h:inputText>
+    	   <h:outputLabel value="Source Passport : "/>
+    	   <h:inputText value="#{Digibankcontroller.employee.sourcePassport}"></h:inputText>
+    	    <h:outputLabel value="Destination Bank : "/>
+    	   <h:inputText value="#{Digibankcontroller.employee.destinationBank}"></h:inputText>
+    	   <h:outputLabel value="Destation Country : "/>
+    	   <h:inputText value="#{Digibankcontroller.employee.destationCountry}"></h:inputText>
+    	    <h:outputLabel value="Account Number : "/>
+    	   <h:inputText value="#{Digibankcontroller.employee.accountNumber}"></h:inputText>
+    	   <h:outputLabel value="Amount : "/>
+    	   <h:inputText value="#{Digibankcontroller.employee.amount}"></h:inputText>
+    	   </h:panelGrid>
+    	   <h:commandButton value="submit" action="#{employeecontroller.addNewEmployee}"></h:commandButton>
+    	</h:form>
+    </h:body>
+</html>

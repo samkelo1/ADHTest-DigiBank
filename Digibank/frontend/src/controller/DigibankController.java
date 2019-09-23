@@ -1,0 +1,35 @@
+package controller;
+
+import javax.ejb.EJB;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ManagedProperty;
+import javax.faces.bean.SessionScoped;
+
+import model.Digibank;
+import service.DigibankEJB;
+
+@ManagedBean(name="Digibankcontroller")
+@SessionScoped
+public class DigibankController {
+	
+	@EJB
+	DigibankEJB Digibankservice;
+	
+	@ManagedProperty(value="#{employee}")
+	private Digibank employee;
+	
+	public Digibank getEmployee() {
+		return employee;
+	}
+
+	public void setEmployee(Digibank employee) {
+		this.employee = employee;
+	}
+
+	public void addNewEmployee()
+	{
+		System.out.println("Is in use");
+		Digibankservice.addNew(employee.getEntity());
+	}
+
+}
