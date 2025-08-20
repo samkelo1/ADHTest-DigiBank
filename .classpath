@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.1/JSFKickStartWithLibs/JavaSource"/>
+	<classpathentry including="demo/" kind="src" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.1/JSFKickStartWithoutLibs/JavaSource"/>
+	<classpathentry kind="src" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.2/JSFKickStartWithoutLibs/JavaSource"/>
+	<classpathentry kind="src" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.2-facelets/FaceletsKickStartWithoutLibs/JavaSource"/>
+	<classpathentry kind="src" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.2-facelets/FaceletsKickStartWithRILibs/JavaSource"/>
+	<classpathentry kind="src" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.0/JSFKickStartWithoutLibs/JavaSource"/>
+	<classpathentry kind="src" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.1/JSFKickStartWithoutLibs/JavaSource"/>
+	<classpathentry kind="src" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.2/JSFKickStartWithoutLibs/JavaSource"/>
+	<classpathentry kind="src" path="Digibank/backend/ejbModule"/>
+	<classpathentry kind="src" path="Digibank/frontend/src"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.central/proxyWizards/1569241857744/org.jboss.tools.central.discovery_4.12.0.Final_v20190628_0639_B6622.jar_3903101292848178356.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.central/proxyWizards/1569241857744/org.jboss.tools.central.discovery.earlyaccess_4.12.0.Final_v20190628_0639_B6622.jar_334705572115802695.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.central/proxyWizards/1569241857744/org.jboss.tools.central.discovery.integration_stack_4.11.0.Final_v20190515_1302_51_B10.jar_3443248750999741807.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.central/proxyWizards/1569243395841/org.jboss.tools.central.discovery_4.12.0.Final_v20190628_0639_B6622.jar_2089447651297444793.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.central/proxyWizards/1569243395841/org.jboss.tools.central.discovery.earlyaccess_4.12.0.Final_v20190628_0639_B6622.jar_2895882701097267757.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.central/proxyWizards/1569243395841/org.jboss.tools.central.discovery.integration_stack_4.11.0.Final_v20190515_1302_51_B10.jar_3163577722836441388.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/lib/ApacheCommon2.3/common-annotations.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/lib/ApacheCommon2.3/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/lib/ApacheCommon2.3/commons-collections.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/lib/ApacheCommon2.3/commons-digester.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/lib/ApacheCommon2.3/commons-logging.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/lib/ApacheCommon2.3/jstl.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/lib/ApacheCommon2.3/standard.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/lib/facelets/jsf-facelets.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/lib/jsf-1.2/jsf-tlds.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/lib/RichFaces3.1/richfaces-api-3.1.6.SR1.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/lib/RichFaces3.1/richfaces-impl-3.1.6.SR1.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/lib/RichFaces3.1/richfaces-ui-3.1.6.SR1.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/lib/RichFaces3.3/richfaces-api-3.3.3.Final.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/lib/RichFaces3.3/richfaces-impl-3.3.3.Final.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/lib/RichFaces3.3/richfaces-ui-3.3.3.Final.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/lib/servlet/2.2/servlet.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/lib/servlet/2.3/servlet.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/lib/servlet/2.4/jsp-api.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/lib/servlet/2.4/servlet-api.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/lib/Tiles/struts.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.1/JSFBlankWithLibs/WebContent/WEB-INF/lib/jsf-api.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.1/JSFBlankWithLibs/WebContent/WEB-INF/lib/jsf-impl.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.1/JSFKickStartWithLibs/WebContent/WEB-INF/lib/jsf-api.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.1/JSFKickStartWithLibs/WebContent/WEB-INF/lib/jsf-impl.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.1/JSFKickStartWithoutLibs/WebContent/WEB-INF/lib/jsf-tlds.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.2-facelets/FaceletsKickStartWithRILibs/WebContent/WEB-INF/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.2-facelets/FaceletsKickStartWithRILibs/WebContent/WEB-INF/lib/el-ri.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.2-facelets/FaceletsKickStartWithRILibs/WebContent/WEB-INF/lib/jsf-api.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-1.2-facelets/FaceletsKickStartWithRILibs/WebContent/WEB-INF/lib/jsf-impl.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.0/JSFBlankWithLibs/WebContent/WEB-INF/lib/jsf-api-2.0.4-b09.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.0/JSFBlankWithLibs/WebContent/WEB-INF/lib/jsf-impl-2.0.4-b09.jar"/>
+	<classpathentry kind="lib" path="Digibank/.metadata/.plugins/org.jboss.tools.common.projecttemplates/templates/jsf-2.1/JSFBlankWithLibs/WebContent/WEB-INF/lib/javax.faces-2.1.13.jar"/>
+	<classpathentry kind="output" path="Digibank/backend/build/classes"/>
+</classpath>
